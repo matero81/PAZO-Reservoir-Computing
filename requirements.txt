@@ -1,0 +1,27 @@
+# requirements.txt
+# Code made for python V3.11.0
+
+# Required for general scientific computing and data manipulation
+numpy
+pandas
+matplotlib
+
+# Required for image handling and GIF creation
+imageio
+Pillow
+
+# Required for interactive plots in Jupyter notebooks and display utilities
+ipython
+ipympl
+
+# Required for progress bars
+tqdm
+
+# Required for machine learning (preprocessing, metrics, models)
+scikit-learn
+tensorflow # Includes Keras layers and datasets like MNIST
+
+# Note: Specific versions (e.g., pandas==1.3.4) are recommended for reproducibility,
+# but this example lists just the package names.
+# You can generate a file with versions using 'pip freeze > requirements.txt'
+# within your virtual environment.

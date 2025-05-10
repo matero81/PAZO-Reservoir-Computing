@@ -1,0 +1,2 @@
+T_on E6 (ms)	T_off E6 (ms)	Ts E6 (ms)	Time before sequence E6 (ms)	T_reading E6 (ms)	N_bits E6 (ms)	N_sets E6 (ms)	Erasing threshold E6	Max Erasing Time E6 (ms)	Time to wait after erasing E6 (ms)	Writing voltage (V)	Erasing voltage (V)	Exposure	Framerate
+500.000000	500.000000	50.000000	10000.000000	10000.000000	4.000000	10.000000	120.000000	600000.000000	5000.000000	1.400000	2.840000	2.290487	39.991353

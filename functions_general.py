@@ -1,13 +1,8 @@
 import matplotlib.pyplot as plt
 
 import os # Used for directories
-import pandas as pd # Used for Dataframes and opening and saving csv files
 import numpy as np # Used for scientific computation
 import random # Used to generate random numbers
-import shutil # Used to manage files
-import imageio # Used to save a gif
-from PIL import Image # Used to save images
-from IPython.display import clear_output # Used to clear the output of a cell
 from tqdm import tqdm # Used to show a progress bar
 
 # Used for for the feedfodward neural network:
@@ -16,7 +11,6 @@ from sklearn.preprocessing import OneHotEncoder
 from keras.models import Sequential
 from keras.layers import Dense
 from sklearn.metrics import confusion_matrix
-from sklearn.manifold import TSNE
 
 def import_mnist_offline(file_path):
     if not os.path.exists(file_path):
